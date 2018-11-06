@@ -1,1 +1,1 @@
-# Testing with Jasmine
+# Jasmine unit testing
