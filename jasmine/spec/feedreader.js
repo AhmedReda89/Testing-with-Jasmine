@@ -70,11 +70,10 @@ $(function() {
             * should have two expectations: does the menu display when
             * clicked and does it hide when clicked again.
             */
-            it('closes when we click the menu icon', function() {
+           
+            it('menu toggles when we click the menu icon', function() {
                 menuIcon.trigger('click');
                 expect($('body').hasClass( "menu-hidden" )).toBe(false);
-            });
-            it('opens when we click the menu icon again', function() {
                 menuIcon.trigger('click');
                 expect($('body').hasClass( "menu-hidden" )).toBe(true);
             });
